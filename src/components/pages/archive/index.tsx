@@ -23,6 +23,7 @@ const content = {
 const Archive = ({ archive }: ArchiveProps) => {
   const dirPath = path.join(process.cwd(), `public/${archive}`);
   console.log(dirPath);
+  console.log(images);
   const images = fs.existsSync(dirPath) ? fs.readdirSync(dirPath) : [];
   return (
     <div className="text-[#FDE11D]">
