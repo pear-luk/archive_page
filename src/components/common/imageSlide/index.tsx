@@ -15,7 +15,7 @@ const ImageSlide = ({ images, archive }: ImageSlideProps) => {
       <Splide
         aria-label={`${archive}`}
         options={{ arrows: false, perMove: 1, type: "loop" }}
-        className="flex w-full justify-center"
+        className="m-auto w-[342px]"
       >
         {images.map((image, i) => (
           <SplideSlide className="flex justify-center">
