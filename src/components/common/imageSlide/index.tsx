@@ -24,7 +24,6 @@ const ImageSlide = ({ images, archive }: ImageSlideProps) => {
               alt="main"
               width={342}
               height={456}
-              loading="lazy"
               className="inline-block"
             />
           </SplideSlide>
