@@ -10,7 +10,7 @@ interface ArchiveProps {
 
 const title = {
   "23SS": "A LUK++++++ GEEK",
-  "23FW": "LUK-OUT SYUNDROME",
+  "23FW": "LUK-OUT SYNDROME",
 };
 const content = {
   "23SS":
