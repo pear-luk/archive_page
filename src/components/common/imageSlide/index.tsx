@@ -18,7 +18,7 @@ const ImageSlide = ({ images, archive }: ImageSlideProps) => {
         className="m-auto w-[342px]"
       >
         {images.map((image, i) => (
-          <SplideSlide className="flex justify-center">
+          <SplideSlide className="flex justify-center" key={image + i}>
             <Image
               src={`${image}`}
               alt="main"
