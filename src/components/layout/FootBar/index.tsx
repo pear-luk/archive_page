@@ -1,6 +1,13 @@
-const FootBar = () => {
+interface FootBarProps {
+  isVisible?: boolean;
+}
+const FootBar = ({ isVisible = true }: FootBarProps) => {
   return (
-    <div className="text-s flex justify-center pb-[80px] text-[#8F8C8C]">
+    <div
+      className={`text-s flex justify-center pb-[80px] ${
+        isVisible ? "text-[#8F8C8C]" : "text-black"
+      }`}
+    >
       <div className="flex flex-col space-y-[1px] text-center">
         <p>
           INSTA <a href="https://instagram.com/pearluk_kr">@pearluk_kr</a>

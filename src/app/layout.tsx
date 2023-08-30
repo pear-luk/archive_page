@@ -1,4 +1,3 @@
-import FootBar from "@/components/layout/FootBar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -19,10 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className}`}>
-        <div className="min-h-[1038] bg-black">
-          {children}
-          <FootBar />
-        </div>
+        <div className="min-h-[1038] bg-black">{children}</div>
       </body>
     </html>
   );
