@@ -10,7 +10,6 @@ interface ImageSlideProps {
 }
 
 const ImageSlide = ({ images, archive }: ImageSlideProps) => {
-  console.log(images);
   return (
     <div className="p-[24px]">
       <Splide

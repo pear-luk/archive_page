@@ -3,7 +3,6 @@ interface ArchiveContentProps {
 }
 
 const ArchiveContent = ({ content }: ArchiveContentProps) => {
-  console.log(content.split("\n"));
   return (
     <div className="w-full justify-center p-[24px] text-start text-[15px] font-normal text-[#FDE11D]">
       {content
