@@ -24,6 +24,7 @@ const Archive = ({ archive }: ArchiveProps) => {
   const dirPath = path.join(process.cwd(), `public/${archive}`);
   console.log(dirPath);
   const images = fs.existsSync(dirPath) ? fs.readdirSync(dirPath) : [];
+  console.log(fs.existsSync(dirPath));
   console.log(images);
   return (
     <div className="text-[#FDE11D]">
